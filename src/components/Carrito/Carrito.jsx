@@ -1,4 +1,4 @@
-import cart from "./assets/bxs-cart-alt.svg"
+import cart from "../../assets/bxs-cart-alt.svg"
 
 
 const Carrito = ()=>{
