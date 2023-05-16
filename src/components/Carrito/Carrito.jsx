@@ -1,11 +1,12 @@
-import cart from "../../assets/bxs-cart-alt.svg"
+import "../Carrito/carrito.css"
+import {RiShoppingCart2Fill} from "react-icons/ri"
 
 
 const Carrito = ()=>{
     return (
         <div>
-           <img src={cart} alt="carrito-de-compras" />
-           0
+           <RiShoppingCart2Fill className="carrito" />
+           <span className="number">0</span>
         </div>
     )
 }

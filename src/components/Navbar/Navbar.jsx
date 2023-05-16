@@ -1,20 +1,21 @@
 import Carrito from "../Carrito/Carrito"
 import logo from "../../assets/bxs-joystick.svg"
 import "../Navbar/navbar.css"
+import { NavLink, Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
         <nav className="navbar-container">
-           <div className="logo-container">
+           <Link to="/" className="logo-container">
                <img src={logo} className="nav-logo"/>
                <h3 className="title-logo">GameShop</h3>
-           </div>
+           </Link>
            <div className="button-nav">
-               <a>PlayStation</a>
-                <a>Xbox</a>
-                <a>Nintendo</a>
+            <NavLink to={`/category/playStation`} className={({isActive})=> isActive ? "ActiveOption" : "Option"}>PlayStation</NavLink>
+            <NavLink to={`/category/xbox`} className={({isActive})=> isActive ? "ActiveOption" : "Option"}>Xbox</NavLink>
+            <NavLink to={`/category/nintendo`} className={({isActive})=> isActive ? "ActiveOption" : "Option"}>Nintendo</NavLink>
            </div>
-            <Carrito className="carrito" />
+            <Carrito />
         </nav>
     )
 }

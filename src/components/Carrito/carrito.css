@@ -1,3 +1,9 @@
-.img-carrito{
-    font-size: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+.carrito{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.number{
+    font-family: 'Poppins', sans-serif;
 }
