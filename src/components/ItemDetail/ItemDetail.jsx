@@ -1,7 +1,8 @@
 import ItemCount from "../ItemCount/ItemCount"
 import "../ItemDetail/itemdetail.css"
 
-export const ItemDetail = ({id, name,price,img,category, stock})=>{
+ const ItemDetail = ({id, name,price,img,category,stock})=>{
+    console.log(name);
     return(
         <article>
             <header className="header">
@@ -15,8 +16,10 @@ export const ItemDetail = ({id, name,price,img,category, stock})=>{
                 <p className="category">Categoria:{category}</p>
             </section>
             <footer>
-                <ItemCount initial={1} stock={stock} onAdd={(quantity)=> console.log("cantidad agregada"+ quantity)}>1</ItemCount>
+                <ItemCount initialState={1} stock={stock} onAdd={(quantity)=> console.log("cantidad agregada"+ quantity)} />
             </footer>
         </article>
     )
 }
+
+export default ItemDetail

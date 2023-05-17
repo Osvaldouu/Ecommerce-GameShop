@@ -2,10 +2,11 @@ import React from 'react'
 import "../Item/item.css"
 import { Link } from 'react-router-dom'
 
-export const Item = ({id,stock, name, price, img, category}) => {
+export const Item = ({id,stock, name, price, img,category}) => {
+
   return (
-    <article>
-        <div className="card-container">
+    <article className='container'>
+        <div key={id} className="card-container">
             <picture className='card-img'>
                 <img src={img} alt={name} />
             </picture>
@@ -18,7 +19,7 @@ export const Item = ({id,stock, name, price, img, category}) => {
                 <p>Categoria: {category}</p>
             </div>
             <footer>
-                <Link to={`/Item/${id}`} className='Option'>ver detalles</Link>
+                <Link to={`/item/${id}`} className='Option btn41-43 btn-42'>ver detalles</Link>
             </footer>
         </div>
     </article>

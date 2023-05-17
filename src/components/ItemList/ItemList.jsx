@@ -1,4 +1,5 @@
 import { Item } from "../Item/Item"
+import "../ItemList/itemlist.css"
 
 export const ItemList = ({products}) => {
   return (

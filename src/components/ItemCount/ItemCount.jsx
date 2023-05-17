@@ -17,7 +17,7 @@ const ItemCount = ({ initialState, stock }) => {
     setQuantity(quantity - 1);
     }
   };
-
+  
   return (
     <div className="counter">
       <div className="controls">
@@ -26,7 +26,7 @@ const ItemCount = ({ initialState, stock }) => {
         <button onClick={increment}>+</button>
       </div>
       <div>
-        <button onClick={()=> onAdd (quantity)}>agregar al carrito</button>
+        <button onClick={()=> onAdd(quantity)}>agregar al carrito</button>
       </div>
     </div>
   );
