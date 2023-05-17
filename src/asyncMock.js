@@ -44,16 +44,17 @@ export const getproduct = () => {
 export const getProductById = (productId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      const produc = (products.find((prod) => prod.id === productId));
-      resolve(produc)
+      const produc = products.find((prod) => prod.id === Number(productId));
+
+      resolve(produc);
     }, 500);
   });
 };
 
-export const getProductCategories = () => {
+export const getProductCategories = (category) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      const categories = products.map((product) => product.category);
+      const categories = products.filter((product) => product.category === category);
       resolve(categories);
     }, 500);
   });

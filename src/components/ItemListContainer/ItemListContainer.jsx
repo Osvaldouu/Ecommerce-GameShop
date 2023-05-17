@@ -11,9 +11,9 @@ const ItemListContainer = ({titulo}) =>{
 
     useEffect (()=>{
         
-        const asyncFunc = categoryId ? getProductCategories : getproduct
+        // const asyncFunc = categoryId ? getProductCategories(categoryId) : getproduct
         
-        asyncFunc(categoryId)
+        getProductCategories(categoryId)
        .then(response=>{
         setProducts(response)
        })

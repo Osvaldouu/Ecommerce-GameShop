@@ -1,12 +1,9 @@
 import React from "react";
 import { useState } from "react";
 
-const ItemCount = ({ initialState, stock }) => {
+const ItemCount = ({ initialState, stock, onAdd }) => {
   const [quantity, setQuantity] = useState(initialState);
   
-  const onAdd = (quantity) =>{
-    console.log("cantidad agregada", quantity);
-  }
   const increment = () => {
     if (quantity < stock){
     setQuantity(quantity + 1);
@@ -17,7 +14,7 @@ const ItemCount = ({ initialState, stock }) => {
     setQuantity(quantity - 1);
     }
   };
-  
+
   return (
     <div className="counter">
       <div className="controls">
