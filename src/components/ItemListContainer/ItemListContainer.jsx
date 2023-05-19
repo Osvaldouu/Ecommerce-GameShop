@@ -20,7 +20,7 @@ const ItemListContainer = ({titulo}) =>{
        .catch (err => console.log(err))
     },[categoryId])
     return(
-        <div className="container">
+        <div className="container-list">
             <h1>{titulo}</h1>
             <ItemList products={products}/>
         </div>

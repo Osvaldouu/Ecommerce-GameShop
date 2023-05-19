@@ -3,27 +3,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: auto;
-    margin: auto;
-    padding: 1rem;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    padding-bottom: 1.3rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
 
 .card-img img{
-    height: 350px;
-    width: 300px;
+  object-fit: cover;
+  margin-top: 1.4rem;
+    height: auto;
+    width: 100%;
 }
 
 .card-name{
-    margin-bottom: 1.3rem;
+  text-align: center;
+  font-size: 11px;
+  width: 100%;
+  max-width: 200px;
+    margin: auto;
+    height: 2.3rem;
 }
 
 .card-data{
-    display: flex;
-    gap: 1.2rem;
-    margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 18px;
+}
+
+.price-item{
+  margin-bottom: 1rem;
+  color: #105602;
+  font-size: 1.3rem;
+}
+
+.categoria-item{
+  font-size: 1.2rem;
+  letter-spacing: 1.4px;
 }
 .Option{
     margin-top: 30px;

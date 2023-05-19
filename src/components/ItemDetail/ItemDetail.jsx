@@ -1,24 +1,24 @@
 import ItemCount from "../ItemCount/ItemCount"
 import "../ItemDetail/itemdetail.css"
 
- const ItemDetail = ({name,img,price,category,stock})=>{
+ const ItemDetail = ({name,img,price,category,stock, logo})=>{
     // const {name,price,img,stock, category} = products
     return(
-        <article>
-            <header className="header">
-                <h2 className="ItemHeader">{name}</h2>
-            </header>
-            <picture>
-                <img src={img} alt={name} className="ItemImg" />
-            </picture>
-            <section>
-                <p className="price">Precio: {price}</p>
-                <p className="category">Categoria:{category}</p>
-            </section>
-            <footer>
+        <div className="container-detail">
+            <div>
+                <img src={img} alt={name} className="item-img" />
+            </div>
+            <div className="header">
+                <h2 className="item-name">{name}</h2>
+                <p className="price">{price}</p>
+                <div className="datos-detail">
+                    <p className="category">Stock: {stock}</p>
+                    <p>||</p>
+                    <p className="category"> {logo} Categoria: {category} </p>
+                </div>
                 <ItemCount initialState={1} stock={stock} onAdd={(quantity)=> console.log("cantidad agregada " + quantity)} />
-            </footer>
-        </article>
+            </div>
+        </div>
     )
 }
 
