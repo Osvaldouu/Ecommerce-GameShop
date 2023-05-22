@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+footer {
+  width: 100%;
+  color: #79d9c9;
+  font-size: 15px;
+}
+.footer-logo{
+  font-size: 1.6rem;
+  width: 50px;
+  height: 50px;
+  color: #f5ea26dc;
+}
+.footer-title {
+    font-size: 1.2rem;
+  font-family: "Press Start 2P", cursive;
+  color: #79d9c9;
+}
+.footer-subtitle {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.footer-link {
+  text-decoration: dashed;
+}
+.footer-contenidos {
+  background-color: #2f3948;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.1rem 1rem;
+  justify-items: center;
+}
+
+.footer-nosotros {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nosotros img {
+  width: 90px;
+  height: 80px;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.insta:hover {
+  border-radius: 100%;
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+.fb:hover {
+  color: #4267b3;
+}
+.tw:hover {
+  color: #1C9BF1;
+}
+
+.footer-link-social {
+  color: #79d9c9;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer-listas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  list-style: none;
+}
+.footer-listas .footer-link {
+  color: #79d9c9;
+  font-size: 1.1rem;
+}
+.footer-listas .footer-link:hover {
+  color: #bdcdd6;
+}
+
+.footer-copyrigth {
+  display: flex;
+  justify-content: center;
+  background-color: #2c495d;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  font-weight: lighter;
+}
+.link-yo {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .footer-contenidos {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 2rem;
+  }
+  .footer-nosotros{
+    margin: 1rem;
+  }
+  .footer-listas{
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+}

@@ -1,41 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-.navbar-container{
-    background-color: #6096B4;
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.header-navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.navbar-container {
+  background-color: #2f3948;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.title-logo {
+  font-size: 1.2rem;
+  font-family: "Press Start 2P", cursive;
+  color: #79d9c9;
+}
+
+.nav-logo {
+  font-size: 1.6rem;
+  width: 50px;
+  height: 50px;
+  color: #f5ea26dc;
+}
+
+.dat-container {
+  display: flex;
+  gap: 1.8rem;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.tag {
+  color: #79d9c9;
+  font-family: "Press Start 2P", cursive;
+  margin: 0.7rem;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+.tag:hover {
+  color: #bdcdd6;
+}
+
+.anuncio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #2c495d;
+  color: white;
+  font-size: 0.9rem;
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  display: none;
+}
+
+.open {
+  font-size: 22px;
+  display: none;
+}
+
+.close {
+  font-size: 22px;
+  display: none;
+}
+
+.dat-container.activeMenu {
+  visibility: visible;
+}
+
+/* medias querys  */
+@media (max-width: 768px) {
+  .navbar-container {
+    margin: auto;
     justify-content: space-between;
-    align-items:center;
-    padding: 1.1rem;
-}
-.logo-container{
-    display: flex;
-    align-items: center;
+  }
+  .dat-container {
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 10px;
+    background-color: #2f3948;
+    position: absolute;
+    top: 7.7rem;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+  }
+  .open {
+    display: block;
+    transition: 0.4s all;
+    color: #79d9c9;
+  }
+  .close {
+    display: block;
+    transition: 0.4s all;
+    color: #79d9c9;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .menus {
+    display: block;
+    color: #79d9c9;
+  }
 }
-
-.title-logo{
-    font-size: 1.2rem;
-    font-family: 'Press Start 2P', cursive;
-    color: black;
-}
-
-.nav-logo{
-    font-size: 1.6rem;
-    width: 50px;
-    height: 50px;
-}
-
-.Option{
-    color: black;
-}
-
-.button-nav a{
-    font-size: 1.3rem;
-    margin: 0.7rem;
-    cursor: pointer;
-    letter-spacing: 1.5px;
-}
-
-.button-nav a:hover{
-    color: #BDCDD6;
-}
-

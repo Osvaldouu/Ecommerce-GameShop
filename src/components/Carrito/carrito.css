@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 .carrito{
     font-size: 1.6rem;
     cursor: pointer;
+    color: #79d9c9;
 }
 
 .number{
-    font-family: 'Poppins', sans-serif;
+    color:#79d9c9;
 }

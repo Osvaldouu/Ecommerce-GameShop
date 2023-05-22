@@ -17,9 +17,9 @@ export const Item = ({id,logo, name, price, img,category}) => {
                 <p className='price-item'>{price}</p>
                 <p className='categoria-item'>Categoria: {category} {logo}</p>
             </div>
-            <footer>
-                <Link to={`/item/${id}`} className='Option btn41-43 btn-42'>ver detalles</Link>
-            </footer>
+            <div className='detail-button'>
+                <Link to={`/item/${id}`} className='btn41-43 btn-42'>ver detalles</Link>
+            </div>
         </div>
     </article>
   )
