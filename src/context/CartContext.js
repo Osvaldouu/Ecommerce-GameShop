@@ -1,13 +1,15 @@
-import { createContext, useState } from "react"
+import { createContext, useContext, useState } from "react"
 
-export const CartContext = createContext({
-    cart: []
-});
 
-export const CartProvider = ({children}) =>{
+const CartContext = createContext();
+
+export const UseCart = () => {
+    const context = useContext(CartContext);
+    return context;
+  }
+
+const CartProvider = (props) =>{
     const [cart, setCart] = useState([])
-
-    console.log(cart)
 
     const addItem = (item, quantity)=>{
         if(!isIncart(item.id)) {
@@ -22,17 +24,43 @@ export const CartProvider = ({children}) =>{
       setCart(cartUpdated)
     }
 
+    const getItemQuantity = () => {
+        const quantity = cart.reduce((acc, prod) => (acc += prod.quantity), 0);
+        return quantity || 0;
+      };
+
+      const getTotal = () => {
+        return cart.reduce((acc, prod) => (acc += prod.price * prod.quantity), 0);
+      };
+
+      const totalQuantity = () => {
+        return cart.reduce((total, cartItem) => total + cartItem.quantity, 0);
+      };
+
     const clearCart = () => {
         setCart([])
     }
+   
 
     const isIncart = (itemId) =>{
         return cart.some(prod => prod.id === itemId)
     }
 
     return(
-        <CartContext.Provider value={{cart, addItem, removeItem, clearCart}}>
-        {children}
+        <CartContext.Provider 
+        value={{
+            cart, 
+            addItem, 
+            removeItem, 
+            clearCart, 
+            isIncart,
+            getItemQuantity,
+            getTotal,
+            totalQuantity
+        }}
+        >
+        {props.children}
         </CartContext.Provider>
     )
 }
+export {CartProvider, CartContext}

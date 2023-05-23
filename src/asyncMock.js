@@ -42,6 +42,7 @@ const products = [
     category: "xbox",
     stock: 6,
   },
+  
 ];
 
 export const getproduct = () => {

@@ -17,7 +17,6 @@
     padding: 1rem;
 }
 .subtitle-notice{
-    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     text-align: start;
     letter-spacing: 2px;
@@ -32,7 +31,6 @@
     font-size: 1rem;
     margin-top: 0.6rem;
     text-align: start;
-    font-family: "Poppins", sans-serif;
 }
 
 .input{
@@ -55,3 +53,63 @@
     height: 40px;
     width: 120px;
   }
+
+@media (max-width: 768px){
+    .notice-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-notice{
+        width: 100%;
+        margin: auto;
+    }
+    .input-notice{
+        width: 100%;
+        margin: auto;
+    }
+    .subtitle-notice{
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .p-notice{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .notice-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .info-notice{
+        width: 100%;
+        /* margin: auto; */
+    }
+    .input-notice{
+        width: 100%;
+        margin: auto;
+    }
+    .subtitle-notice{
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .p-notice{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .input-button{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
+    
+

@@ -3,7 +3,7 @@ import { useState } from "react"
 import {RiGameFill} from "react-icons/ri"
 import "../Navbar/navbar.css";
 import { GoMegaphone } from "react-icons/go";
-import {GrClose} from "react-icons/gr"
+import {IoMdClose} from "react-icons/io"
 import {FiMenu} from "react-icons/fi"
 import { NavLink, Link } from "react-router-dom";
 
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="menus">
           <i onClick={handleMenu}>
             {menuOpen ? (
-              <GrClose className="close" />
+              <IoMdClose className="close" />
             ) : (
               <FiMenu className="open" />
             )}

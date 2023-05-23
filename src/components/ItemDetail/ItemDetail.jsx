@@ -13,7 +13,7 @@ const ItemDetail = ({id, name, img, price, category, stock, logo }) => {
     setQuantityAdded(quantity);
 
     const item = {
-       id, name,price
+       id, name, price
     }
 
     addItem(item, quantity)

@@ -90,6 +90,7 @@
 @media (max-width: 768px) {
   .navbar-container {
     margin: auto;
+    width: 100%;
     justify-content: space-between;
   }
   .dat-container {
@@ -121,5 +122,13 @@
   .menus {
     display: block;
     color: #79d9c9;
+  }
+}
+
+@media (max-width: 425px){
+  .navbar-container {
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
   }
 }

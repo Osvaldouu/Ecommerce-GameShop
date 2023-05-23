@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import {RiGameFill} from "react-icons/ri"
+import {GoLocation} from "react-icons/go"
+import {MdOutlineEmail} from "react-icons/md"
 import {FiInstagram} from "react-icons/fi"
-import {BsFacebook, BsTwitter} from "react-icons/bs"
+import {BsFacebook, BsTwitter, BsWhatsapp} from "react-icons/bs"
 import "../Footer/footer.css";
 
 const Footer = () => {
@@ -31,13 +33,13 @@ const Footer = () => {
             <h3 className="footer-subtitle">Contacto</h3>
           </li>
           <li>
-            <Link className="footer-link"></Link>
+            <Link className="footer-link"><BsWhatsapp/> +5493834996969</Link>
           </li>
           <li>
-            <Link className="footer-link"></Link>
+            <Link className="footer-link"><GoLocation/> Catamarca, Argentina</Link>
           </li>
           <li>
-            <Link className="footer-link"></Link>
+            <Link className="footer-link"><MdOutlineEmail/> osvaldocarrizo8@gmail.com</Link>
           </li>
         </ul>
         <u className="footer-listas">

@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Hogwarts Legacy - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$49,99",
+    "description": "Hogwarts Legacy es un juego de rol de acción inmersivo de mundo abierto ambientado en el mundo presentado por primera vez en los libros de Harry Potter. Por primera vez, experimente Hogwarts en el siglo XIX. Tu personaje es un estudiante que tiene la clave de un antiguo secreto que amenaza con destrozar el mundo mágico. Ahora puedes tomar el control de la acción y estar en el centro de tu propia aventura en el mundo mágico. Tu legado es lo que haces de él. Vive lo no escrito.",
+    "img": "./assets/play1.jpg",
+    "category": "playstation",
+    "stock": 23
+  },
+  {
+    "id": 2,
+    "name": "Resident Evil 4 - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$49,99",
+    "description": "Resident Evil 4 se une a Leon S. Kennedy seis años después de sus infernales experiencias en el desastre biológico de Raccoon City. Su determinación inigualable hizo que lo reclutaran como agente que reportaba directamente al presidente de los Estados Unidos. Con la experiencia de múltiples misiones a sus espaldas, Leon es enviado a rescatar a la hija del presidente recientemente secuestrada. Leon la rastrea hasta un lugar aislado. pueblo europeo, sin embargo, después de hacer el primer contacto, descubre que un fervor más allá de la razón se apodera de la población local. Como un título que estableció el estándar para la franquicia posterior de Resident Evil, el Resident Evil 4 original introdujo la cámara en tercera persona a la serie de larga duración, que ha vendido más de 127 millones de unidades en todo el mundo desde que debutó el primer título en 1996. Ahora, este La historia reinventada de supervivencia frente a un terror abrumador regresa para ofrecer una experiencia de juego moderna visualmente impresionante que es fiel a la promesa del lanzamiento original. Muchos miembros del equipo de la producción del Resident Evil 2 más vendido y aclamado por la crítica de 2019 también regresan para profundizar en la esencia de Resident Evil 4. Tanto los fanáticos como los recién llegados pueden deleitarse tanto con lo nuevo como con lo familiar, ya que RE Engine realza el diseño. y dirección creativa del juego original.",
+    "img": "./assets/play2.jpg",
+    "category": "playstation",
+    "stock": 20
+  },
+  {
+    "id": 3,
+    "name": "Dead Island 2: Day 1 Edition - Playstation 5",
+    "logo": "logoPlay",
+    "description": "¡Vuelve la querida saga de zombis! Dead Island 2 es un emocionante juego de rol de acción en primera persona con una fórmula única de terror, humor negro y una matanza de zombis exagerada. Dead Island 2 lleva a los jugadores a través de los lugares más icónicos de la Ciudad de los Ángeles, ahora teñida de terror, en un emocionante viaje pulp desde los verdes suburbios de Beverly Hills hasta el peculiar paseo marítimo de Venice Beach.",
+    "price": "$34.99",
+    "img": "./assets/play3.jpg",
+    "category": "playstation",
+    "stock": 9
+  },
+  {
+    "id": 4,
+    "name": "Grand Theft Auto V - PlayStation 5",
+    "logo": "logoXbox",
+    "description": "Continúe su viaje en PS5(tm) y transfiera tanto el progreso del modo Historia de GTAV como los personajes y el progreso de GTA Online a PS5(tm) con una migración única. Los jugadores de PlayStation(r)5 pueden disfrutar de nuevas actualizaciones y mejoras de vehículos de alto rendimiento como Career Builder, así como todas las actualizaciones y expansiones de juego de GTA Online y acceso a todas las actualizaciones de contenido actuales y anteriores, listas para disfrutar solo o con amigos. Realice audaces atracos cooperativos, participe en carreras acrobáticas llenas de adrenalina, compita en modos Adversario únicos o pase el rato en espacios sociales como clubes nocturnos, salas de juegos, fiestas en penthouses, reuniones de autos y mucho más.",
+    "price": "$49.99",
+    "img": "./assets/play4.jpg",
+    "category": "playstation",
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "name": "Hogwarts Legacy - Xbox One",
+    "logo": "logoXbox",
+    "description": "Hogwarts Legacy es un juego de rol de acción inmersivo de mundo abierto ambientado en el mundo presentado por primera vez en los libros de Harry Potter. Por primera vez, experimente Hogwarts en el siglo XIX. Tu personaje es un estudiante que tiene la clave de un antiguo secreto que amenaza con destrozar el mundo mágico. Ahora puedes tomar el control de la acción y estar en el centro de tu propia aventura en el mundo mágico. Tu legado es lo que haces de él. Vive lo no escrito.",
+    "price": "$49,99",
+    "img": "./assets/xbox1.webp",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "name": "Minecraft, Nintendo Switch, [Physical Edition]",
+    "logo": "logoNtd",
+    "description": "Minecraft es un juego sobre colocar bloques y emprender aventuras. Explora mundos generados aleatoriamente y construye cosas asombrosas, desde las casas más sencillas hasta los castillos más grandiosos. Juega en el modo creativo con recursos ilimitados o explora las profundidades del mundo en el modo de supervivencia, creando armas y armaduras para defenderte de las peligrosas turbas.",
+    "price": "$49,99",
+    "img": "./assets/nintendo1.jpg",
+    "category": "nintendo",
+    "stock": 7
+  },
+  {
+    "id": 7,
+    "name": "NBA 2K23 - PlayStation 5",
+    "logo": "logoPlay",
+    "description": "Ponte a la altura de las circunstancias y desarrolla todo tu potencial en NBA 2K23. Demuestra tu valía contra los mejores jugadores del mundo y muestra tu talento en MyCareer o The W. Empareja a los All-Stars de hoy con leyendas atemporales en MyTeam. Construye tu propia dinastía como GM, o lidera la liga en una nueva dirección como Comisionado en MyNBA. Enfréntate a equipos de la NBA o la WNBA en PLAY Now y experimenta un juego real. ¿Cómo responderás a la llamada?",
+    "price": "Now $39,99",
+    "img": "./assets/play5.jpg",
+    "category": "playstation",
+    "stock": 12
+  },
+  {
+    "id": 8,
+    "name": "Grand Theft Auto V - Xbox One",
+    "logo": "logoXbox",
+    "price": "Now $19,99",
+    "description": "Incluye Grand Theft Auto V: Modo Historia y Grand Theft Auto Online. Continúe su viaje en Xbox Series X,S y transfiera tanto el progreso del modo Historia de GTAV como los personajes y el progreso de GTA Online a Xbox Series X,S con una migración única. Experimente los éxitos de taquilla de entretenimiento, Grand Theft Auto V y GTA Online ahora para Xbox Series X,S. Cuando un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se ven envueltos con algunos de los elementos más aterradores y trastornados del inframundo criminal, el gobierno de los EE. UU. y la industria del entretenimiento, deben llevar a cabo una serie de peligrosos atracos. sobrevivir en una ciudad despiadada en la que no pueden confiar en nadie menos que en los demás. Experimente GTA Online, un universo en línea dinámico y en constante evolución para hasta 30 jugadores, donde puede pasar de ser un estafador callejero a convertirse en el capo de su propio imperio criminal. Los jugadores de Xbox Series X,S pueden disfrutar de nuevas actualizaciones y mejoras de vehículos de alto rendimiento como Career Builder, así como todas las actualizaciones de juego, expansiones y contenido de GTA Online lanzado desde el lanzamiento, listo para disfrutar solo o con amigos. Realice audaces atracos cooperativos, participe en carreras acrobáticas llenas de adrenalina, compita en modos Adversario únicos o pase el rato en espacios sociales como clubes nocturnos, salas de juegos, fiestas en penthouses, reuniones de autos y mucho más. Explore Los Santos y el condado de Blaine con más detalle que nunca.",
+    "img": "./assets/xbox2.jpg",
+    "category": "xbox",
+    "stock": 23
+  },
+  {
+    "id": 9,
+    "name": "Call of Duty: Modern Warfare II - Xbox One",
+    "logo": "logoXbox",
+    "price": "$39,99",
+    "description": "El icónico escuadrón de intrépidos soldados está de regreso en Call of Duty: Modern Warfare 2 en Xbox Series X. MW2 continúa la acción apasionante y llena de adrenalina mientras los jugadores luchan para salvar al mundo de la devastación. Experimenta la intensa campaña y la fascinante jugabilidad en este épico videojuego de disparos en primera persona.",
+    "img": "./assets/xbox3.jpg",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 10,
+    "name": "FIFA 23 - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$29.83",
+    "description": "EA SPORTS FIFA 23 Legacy Edition para Nintendo Switch presenta los últimos kits, clubes y escuadrones de algunas de las mejores ligas del mundo. También contará con la incorporación de los mejores equipos de clubes femeninos y algunos de los estadios más famosos del mundo, incluidos los nuevos. FIFA 23 Legacy Edition incluye una identidad visual actualizada y un paquete de superposición de transmisión actualizado. Las características y los modos de juego tendrán la paridad con FIFA 22 en Nintendo Switch y contarán con el mismo juego de FIFA 22 Legacy Edition sin ningún nuevo desarrollo o mejora significativa.",
+    "img": "./assets/nintendo2.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 11,
+    "name": "Call of Duty: Modern Warfare II - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "Now $61,99",
+    "description": "El icónico escuadrón de intrépidos soldados está de regreso en Call of Duty: Modern Warfare 2 en PlayStation 5. MW2 continúa la acción apasionante y llena de adrenalina mientras los jugadores luchan para salvar al mundo de la devastación. Experimenta la intensa campaña y la fascinante jugabilidad en este épico videojuego de disparos en primera persona.",
+    "img": "./assets/play6.jpg",
+    "category": "playstation",
+    "stock": 30
+  },
+  {
+    "id": 12,
+    "name": "WWE 2K23 - Xbox One",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "Funciones ampliadas, magníficos gráficos y la mejor experiencia WWE. ¡Sube al ring con una gran lista de superestrellas y leyendas de la WWE, incluidos Roman Reigns, American Nightmare Cody Rhodes, Ronda Rousey, Brock Lesnar, Stone Cold Steve Austin y más! Juega los momentos clave y los oponentes más duros de los 20 años de carrera de John Cena en la WWE. Y, por primera vez en la franquicia, asume el papel de cada uno de los principales oponentes, algunos de los mejores de la WWE de todos los tiempos, mientras intentas derrotar a Mr. Hustle, Loyalty y Respect",
+    "img": "./assets/xbox4.jpg",
+    "category": "xbox",
+    "stock": 14
+  },
+  {
+    "id": 13,
+    "name": "Minecraft Legends: Deluxe Edition - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$49.94",
+    "description": "Levanta tu estandarte con la Edición Deluxe, que incluye 6 máscaras adicionales en el juego: 1 héroe, 4 monturas y una máscara de montura adicional cuando esté disponible. La corrupción abisal de los piglins se está extendiendo por el supramundo, quemando todo lo que toca. ¿Eres el héroe que protegerá esta gentil tierra? Planifica tu estrategia y enfréntate a los piglins en batallas épicas, pero ten cuidado: siempre se defienden. Enfréntate a las bases de los piglins durante el día y defiende a tus aliados al anochecer. Explore exuberantes biomas llenos de tesoros y peligros, conozca nuevos amigos y reúnase con mobs familiares. Con los aliados a tu lado, todo lo que queda por hacer es salvar el mundo.",
+    "img": "./assets/nintendo3.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 14,
+    "name": "FIFA 23 - Xbox One",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "EA SPORTS FIFA 23 Legacy Edition para Xbox One presenta los últimos kits, clubes y escuadrones de algunas de las mejores ligas del mundo. También contará con la incorporación de los mejores equipos de clubes femeninos y algunos de los estadios más famosos del mundo, incluidos los nuevos. FIFA 23 Legacy Edition incluye una identidad visual actualizada y un paquete de superposición de transmisión actualizado. Las características y los modos de juego tendrán la paridad con FIFA 22 en Nintendo Switch y contarán con el mismo juego de FIFA 22 Legacy Edition sin ningún nuevo desarrollo o mejora significativa.",
+    "img": "./assets/xbox5.jpg",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 15,
+    "name": "The Last of Us: Part 1, Playstation 5",
+    "logo": "logoPlay",
+    "price": "$79,99",
+    "description": "Revive el amado juego que lo inició todo, reconstruido para la consola PlayStation®5. Experimente la narración emocional y los personajes inolvidables en The Last of Us™, ganador de más de 200 premios al Juego del año. En una civilización devastada, donde los sobrevivientes infectados y endurecidos proliferan, Joel, un protagonista cansado, es contratado para sacar de contrabando a Ellie, de 14 años, de una zona de cuarentena militar. Sin embargo, lo que comienza como un pequeño trabajo pronto se transforma en un brutal viaje a campo traviesa. Incluye la historia completa para un jugador de The Last of Us y el célebre capítulo de la precuela, Left Behind, que explora los eventos que cambiaron la vida de Ellie y su mejor amiga Riley para siempre.",
+    "img": "./assets/play7.jpg",
+    "category": "playstation",
+    "stock": 24
+  },
+  {
+    "id": 16,
+    "name": "Demon Slayer-Kimetsu no Yaiba: The Hinokami Chronicles - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "Now $48.65",
+    "description": "Cazador de demonios Kimetsu no Yaiba. The Hinokami Chronicles es un espectacular juego de lucha en arena del equipo de Cyber ​Connect2 que permite a los jugadores revivir los momentos memorables de Demon Slayer: Kimetsu no Yaiba Tanjiro Kamado, Unwavering Resolve Arc y Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train. Sigue a Tanjiro a través de la historia del anime Demon Slayer: Kimetsu no Yaiba mientras se enfrenta a demonios para convertir a su hermana Nezuko, que se ha convertido en un demonio, en humana. Es el Período Taisho en Japón. Tanjiro, un niño de buen corazón que vende carbón para ganarse la vida, encuentra a su familia asesinada por un demonio. Para empeorar las cosas, su hermana menor, Nezuko, la única superviviente, se ha transformado ella misma en un demonio. Aunque devastado por esta sombría realidad, Tanjiro decide convertirse en un asesino de demonios para poder convertir a su hermana en humana y matar al demonio que masacró a su familia. ¡Comienza ahora una triste historia de hermanos en la que los destinos de los humanos y los demonios se entrelazan!",
+    "img": "./assets/nintendo4.jpg",
+    "category": "nintendo",
+    "stock": 17
+  },
+  {
+    "id": 17,
+    "name": "Dragon Ball FighterZ - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "Now $22.79",
+    "description": "DRAGON BALL FighterZ, aclamado por la crítica, ahora trae sus peleas espectaculares y guerreros todopoderosos a NINTENDO SWITCH. Al asociarse con Arc System Works, DRAGON BALL FighterZ maximiza los gráficos de anime de alta gama y ofrece un juego de lucha fácil de aprender pero difícil de dominar. Y además de poder jugar sobre la marcha, esta versión de NINTENDO SWITCH también incluye su parte de funciones exclusivas.",
+    "img": "./assets/nintendo5.jpg",
+    "category": "nintendo",
+    "stock": 9
+  },
+  {
+    "id": 18,
+    "name": "Far Cry 6 - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$19,99",
+    "description": "Bienvenido a Yara, un paraíso tropical congelado en el tiempo. Como dictador de Yara, Antón Castillo tiene la intención de restaurar su nación a su antigua gloria por cualquier medio, con su hijo, Diego, siguiendo sus sangrientos pasos. Su gobierno opresivo ha iniciado una revolución.",
+    "img": "./assets/play8.jpg",
+    "category": "playstation",
+    "stock": 26
+  },
+  {
+    "id": 19,
+    "name": "Assassin's Creed - Valhalla Xbox One",
+    "logo": "logoXbox",
+    "price": "$29,99",
+    "description": "Siglo IX d.C. Expulsado de Noruega por guerras interminables y recursos cada vez más escasos, un asaltante vikingo, Eivor, lidera un clan de escandinavos a través del helado Mar del Norte hacia las ricas tierras de los reinos destruidos de Inglaterra. Su misión: establecer un nuevo hogar permanente, sin importar el costo. En Assassin's Creed Valhalla, eres Eivor, un feroz guerrero vikingo criado en historias de batalla y gloria. Explora un mundo abierto misterioso y hermoso ambientado en el brutal telón de fondo de la Edad Media de Inglaterra. Asalta a tus enemigos, haz crecer tu asentamiento y construye tu poder político en la búsqueda para ganar un lugar entre los dioses en Valhalla. Las guerras se desatarán. Los reinos caerán. Esta es la era de los vikingos. ESCRIBE TU SAGA VIKINGA: la mecánica avanzada de los juegos de rol te permite dar forma al crecimiento de tu personaje e influir en el mundo que te rodea. Con cada elección que hagas, desde alianzas políticas y estrategia de combate hasta diálogo y progresión de equipo, labrarás tu propio camino hacia la gloria. SISTEMA DE COMBATE VISCERAL: poderosas armas de doble empuñadura, como hachas, espadas e incluso escudos para revivir el estilo de lucha despiadado de los guerreros vikingos. Decapita brutalmente a tus enemigos, véncelos desde lejos o asesina sigilosamente a los objetivos con tu espada oculta. Ponte a prueba con la colección más variada de enemigos mortales jamás encontrada en un juego de Assassin's Creed. UN MUNDO ABIERTO DE LA EDAD OSCURA: navega desde las duras y misteriosas costas de Noruega hasta los hermosos pero imponentes reinos de Inglaterra y más allá. Sumérgete en el estilo de vida vikingo a través de la pesca, la caza, los juegos de beber y más. LIDERAR ASALTOS ÉPICOS: lanza asaltos masivos contra las tropas y fortalezas sajonas en toda Inglaterra. Lidera a tu clan en ataques sorpresa desde tu drakkar y saquea los territorios enemigos para devolver riquezas y recursos a tu gente. CRECER",
+    "img": "./assets/xbox6.jpg",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 20,
+    "name": "The Legend of Zelda: Tears of the Kingdom - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$199.99",
+    "description": "En esta secuela de The Legend of Zelda: Breath of the Wild, decidirás tu propio camino a través de los extensos paisajes de Hyrule y las misteriosas islas que flotan en los vastos cielos de arriba. ¿Puedes aprovechar el poder de las nuevas habilidades de Link para luchar contra las fuerzas malévolas que amenazan el reino?",
+    "img": "./assets/nintendo6.webp",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 21,
+    "name": "Far Cry 6 - Xbox One",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "Bienvenido a Yara, un paraíso tropical congelado en el tiempo. Como dictador de Yara, Antón Castillo tiene la intención de restaurar su nación a su antigua gloria por cualquier medio, con su hijo, Diego, siguiendo sus sangrientos pasos. Su gobierno opresivo ha iniciado una revolución.",
+    "img": "./assets/xbox7.jpg",
+    "category": "xbox",
+    "stock": 24
+  },
+  {
+    "id": 22,
+    "name": "Jump Force: Deluxe Edition (Nintendo Switch)",
+    "logo": "logoNtd",
+    "price": "$136.99",
+    "description": "Por primera vez, los héroes manga más famosos se ven envueltos en un campo de batalla completamente nuevo: nuestro mundo. Uniéndose para luchar contra la amenaza más peligrosa, Jump Force cargará con el destino de toda la humanidad. Para celebrar el 50 aniversario de la famosa revista Weekly Jump, Jump Force aprovecha al máximo las últimas tecnologías para dar vida a los personajes en un diseño realista nunca antes visto.",
+    "img": "./assets/nintendo7.jpg",
+    "category": "nintendo",
+    "stock": 13
+  },
+  {
+    "id": 23,
+    "name": "WWE 2K23 - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$29,99",
+    "description": "Funciones ampliadas, magníficos gráficos y la mejor experiencia WWE. ¡Sube al ring con una gran lista de superestrellas y leyendas de la WWE, incluidos Roman Reigns, American Nightmare Cody Rhodes, Ronda Rousey, Brock Lesnar, Stone Cold Steve Austin y más! Juega los momentos clave y los oponentes más duros de los 20 años de carrera de John Cena en la WWE. Y, por primera vez en la franquicia, asume el papel de cada uno de los principales oponentes, algunos de los mejores de la WWE de todos los tiempos, mientras intentas derrotar a Mr. Hustle, Loyalty y Respect",
+    "img": "./assets/play9.jpg",
+    "category": "playstation",
+    "stock": 12
+  },
+  {
+    "id": 24,
+    "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$59,99",
+    "description": "¡Ninjas legendarios reunidos! ¡La lista de personajes más grande en la historia de Ultimate Ninja STORM! Celebre el vigésimo aniversario del debut de Naruto en el anime con NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS, la próxima entrada en la exitosa serie Ultimate Ninja STORM, que ha vendido más de 27 millones de unidades en todo el mundo.",
+    "img": "./assets/play10.jpg",
+    "category": "playstation",
+    "stock": 18
+  },
+  {
+    "id": 25,
+    "name": "Fortnite: The Last Laugh Bundle - [Xbox Series X / Xbox One]",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "¡Descubre Wheel of Fortune y Jeopardy! Entrena tu cerebro para resolver miles de acertijos de palabras únicos con Wheel of Fortune y muestra tus conocimientos y reflejos mientras juegas Jeopardy con los mejores programas de juegos de Estados Unidos: ¡Wheel of Fortune y Jeopardy! de Ubisoft para Microsoft Xbox One!",
+    "img": "./assets/xbox8.jpg",
+    "category": "xbox",
+    "stock": 10
+  },
+  {
+    "id": 26,
+    "name": "Mario Kart 8 Deluxe - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "Now $49.94",
+    "description": "Sal a la carretera con Mario Kart 8 y juega en cualquier momento y en cualquier lugar. Compite con tus amigos o enfréntate a ellos en un modo de batalla revisado en campos de batalla nuevos y antiguos. Juega localmente en multijugador de hasta 4 jugadores. Cada pista de la versión de Wii U, incluido el contenido descargable, regresa gloriosamente. Además, los Inklings aparecen como personajes invitados completamente nuevos, junto con los favoritos que regresan, como King Boo, Dry Bones y Bowser Jr.",
+    "img": "./assets/nintendo8.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 27,
+    "name": "Super Smash Bros. Ultimate, Nintendo - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$49,99",
+    "description": "Los íconos del juego chocan en la pelea definitiva que puedes jugar en cualquier momento y en cualquier lugar Aplasta a los rivales fuera del escenario cuando los nuevos personajes Simon Belmont y King K. Rool se unen a Inkling, Ridley y todos los luchadores en la historia de Super Smash Bros. Disfruta de una velocidad y combate mejorados en nuevas etapas basadas en la serie Castlevania, Super Mario Odyssey y más",
+    "img": "./assets/nintendo9.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 28,
+    "name": "PGA Tour 2K23 Deluxe Edition - Xbox Series X, Xbox One",
+    "logo": "logoXbox",
+    "price": "Now $39,99",
+    "description": "Golpea los enlaces con más arrogancia en PGA Tour 2K23. Ahora cuenta con profesionales masculinos y femeninos jugables, incluido Tiger Woods, nuevos campos con licencia, más opciones de control, un auténtico PGA Tour Mycareer, Course Designer y nuevas habilidades y arquetipos de Myplayer. PGA Tour 2K23. Más Golf. Más juego.",
+    "img": "./assets/xbox9.jpg",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 29,
+    "name": "Hello Neighbor 2: Deluxe Edition, Xbox Series X",
+    "logo": "logoXbox",
+    "price": "Now $59,99",
+    "description": "¿Crees que puedes confiar en tus vecinos? Piensa otra vez. Hello Neighbor 2 es un juego de terror sigiloso sobre descubrir los secretos de tu vecino espeluznante. Eres un periodista que busca resolver el caso del Vecino, ya que nadie más se atreve. ¡Juega contra un oponente complejo controlado por una IA avanzada que aprende de ti y de todos los demás jugadores! A medida que pasa el tiempo y el Vecino se adapta a los patrones de los jugadores, su propio comportamiento cambiará y te sorprenderá. ¿Serás tú quien se burle del Vecino y descubra lo que esconde?",
+    "img": "./assets/xbox10.jpg",
+    "category": "xbox",
+    "stock": 20
+  },
+  {
+    "id": 30,
+    "name": "FIFA 23 - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$42,99",
+    "description": "EA SPORTS FIFA 23 Legacy Edition para PlayStation 5 presenta los últimos kits, clubes y escuadrones de algunas de las mejores ligas del mundo. También contará con la incorporación de los mejores equipos de clubes femeninos y algunos de los estadios más famosos del mundo, incluidos los nuevos. FIFA 23 Legacy Edition incluye una identidad visual actualizada y un paquete de superposición de transmisión actualizado. Las características y los modos de juego tendrán la paridad con FIFA 22 en Nintendo Switch y contarán con el mismo juego de FIFA 22 Legacy Edition sin ningún nuevo desarrollo o mejora significativa.",
+    "img": "./assets/play11.webp",
+    "category": "playstation",
+    "stock": 30
+  },
+  {
+    "id": 31,
+    "name": "Dead Island 2: Day 1 Edition - Xbox One",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "¡Vuelve la querida saga de zombis! Dead Island 2 es un emocionante juego de rol de acción en primera persona con una fórmula única de terror, humor negro y una matanza de zombis exagerada. Dead Island 2 lleva a los jugadores a través de los lugares más icónicos de la Ciudad de los Ángeles, ahora teñida de terror, en un emocionante viaje pulp desde los verdes suburbios de Beverly Hills hasta el peculiar paseo marítimo de Venice Beach.",
+    "img": "./assets/xbox11.jpg",
+    "category": "xbox",
+    "stock": 19
+  },
+  {
+    "id": 32,
+    "name": "The Legend of Zelda: Breath of the Wild - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$49,99",
+    "description": "Olvida todo lo que sabes sobre los juegos de The Legend of Zelda. Adéntrate en un mundo de descubrimiento, exploración y aventura en The Legend of Zelda: Breath of the Wild, un nuevo juego innovador de la aclamada serie. Viaja a través de vastos campos, bosques y cumbres montañosas mientras descubres qué ha sido del reino de Hyrule en esta asombrosa aventura al aire libre. Ahora en Nintendo Switch, tu viaje es más libre y abierto que nunca. Lleve su sistema a cualquier lugar y aventúrese como Link de la forma que desee.",
+    "img": "./assets/nintendo10.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 33,
+    "name": "The Legend of Zelda: Skyward Sword HD - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "Now $47.50",
+    "description": "Surca los cielos, desenvaina tu espada y vive la primera historia de la serie Legend of Zelda™. Únete a Link en su búsqueda de altos vuelos para salvar a Zelda, una amiga de la infancia que debe enfrentarse a su destino. Vuela entre islas flotantes y desciende al traicionero mundo de la superficie en esta versión HD actualizada del juego Legend of Zelda: Skyward Sword. Mueva suavemente su espada y oriente sus cortes para descubrir y romper las defensas de los oponentes usando controles de movimiento intuitivos. Los movimientos de Link en el juego se corresponderán con el ángulo de cada golpe que hagas con el controlador Joy-Con™, creando un juego de espadas inmersivo que se basa en la estrategia y la precisión. Los movimientos se sienten más fluidos e inmediatos gracias a la potencia de procesamiento y los gráficos HD del sistema Nintendo Switch. Aproveche el esquema de control de solo botón recientemente agregado, perfecto para jugar en modo portátil o en el sistema Nintendo Switch Lite.",
+    "img": "./assets/nintendo11.jpg",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 34,
+    "name": "Assassin's Creed Mirage - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$49,99",
+    "description": "Reserva ahora para obtener una misión adicional, The Forty Thieves. Experimente la historia de Basim, un ladrón callejero astuto con visiones de pesadilla, que busca respuestas y justicia mientras navega por las bulliciosas calles de la Bagdad del siglo IX. A través de una misteriosa y antigua organización conocida como los Ocultos, se convertirá en un letal Maestro Asesino y cambiará su destino de maneras que nunca podría haber imaginado.",
+    "img": "./assets/play12.webp",
+    "category": "playstation",
+    "stock": 30
+  },
+  {
+    "id": 35,
+    "name": "Watch Dogs Legion - Xbox One Standard Edition",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "Hackea drones armados, despliega robots araña y derriba enemigos usando una capa de realidad aumentada Explore un enorme mundo urbano abierto con muchos lugares emblemáticos de Londres y divertidas actividades paralelas. Forma equipo con tus amigos mientras completas misiones cooperativas y modos de juego únicos.",
+    "img": "./assets/xbox12.jpg",
+    "category": "xbox",
+    "stock": 21
+  },
+  {
+    "id": 36,
+    "name": "Pokemon Legends Arceus - Nintendo Switch [Physical]",
+    "logo": "logoNtd",
+    "price": "$49,99",
+    "description": "Prepárate para un nuevo tipo de gran aventura Pokémon en Pokémon™ Legends: Arceus, un nuevo juego de Game Freak que combina acción y exploración con las raíces de los juegos de rol de la serie Pokémon. Explora extensiones naturales para atrapar Pokémon aprendiendo su comportamiento, acercándote sigilosamente y lanzando una Poké Ball™ certera. También puedes lanzar la Poké Ball que contiene tu Pokémon aliado cerca de un Pokémon salvaje para entrar en batalla sin problemas. Este nuevo ángulo en el juego de Pokémon brindará una experiencia personal e inmersiva que cobrará vida tanto por Pokémon como por humanos. Explora la región de Sinnoh de los juegos Pokémon Versión Diamante y Pokémon Versión Perla, pero mucho antes de los eventos de esos títulos. En esta era, la región de Sinnoh está llena de Pokémon que viven en entornos hostiles. Prepárese para crear el primer Pokédex de la región y descubra los secretos de un tiempo lejano. Al comienzo de su aventura, puede elegir a Rowlet, Cyndaquil u Oshawott como su compañero confiable. En el camino, un misterio que rodea al Pokémon conocido como Arceus comenzará a desarrollarse.",
+    "img": "./assets/nintendo12.webp",
+    "category": "nintendo",
+    "stock": 30
+  },
+  {
+    "id": 37,
+    "name": "Call of Duty: Black Ops Cold War - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "Now $39,99",
+    "description": "Black Ops Cold War llevará a los fanáticos a las profundidades de la volátil batalla geopolítica de la Guerra Fría de principios de la década de 1980. Nada es lo que parece en una apasionante campaña para un jugador, donde los jugadores se enfrentarán cara a cara con figuras históricas y verdades duras, mientras luchan en todo el mundo a través de lugares icónicos como Berlín Oriental, Vietnam, Turquía, la sede de la KGB soviética. y más.",
+    "img": "./assets/play13.jpg",
+    "category": "playstation",
+    "stock": 30
+  },
+  {
+    "id": 38,
+    "name": "Demon Slayer -Kimetsu No Yaiba- The Hinokami Chronicles Launch Edition (Ps5)",
+    "logo": "logoPlay",
+    "price": "$49,99",
+    "description": "Cazador de demonios Kimetsu no Yaiba. The Hinokami Chronicles es un espectacular juego de lucha en arena del equipo de Cyber ​Connect2 que permite a los jugadores revivir los momentos memorables de Demon Slayer: Kimetsu no Yaiba Tanjiro Kamado, Unwavering Resolve Arc y Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train. Sigue a Tanjiro a través de la historia del anime Demon Slayer: Kimetsu no Yaiba mientras se enfrenta a demonios para convertir a su hermana Nezuko, que se ha convertido en un demonio, en humana. Es el Período Taisho en Japón. Tanjiro, un niño de buen corazón que vende carbón para ganarse la vida, encuentra a su familia asesinada por un demonio. Para empeorar las cosas, su hermana menor, Nezuko, la única superviviente, se ha transformado ella misma en un demonio. Aunque devastado por esta sombría realidad, Tanjiro decide convertirse en un asesino de demonios para poder convertir a su hermana en humana y matar al demonio que masacró a su familia. ¡Comienza ahora una triste historia de hermanos en la que los destinos de los humanos y los demonios se entrelazan!",
+    "img": "./assets/play14.jpg",
+    "category": "playstation",
+    "stock": 7
+  },
+  {
+    "id": 39,
+    "name": "Crash Bandicoot™ 4: It's About Time, Activision - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$49,99",
+    "description": "Ya era hora: ¡para un nuevo juego de Crash Bandicoot™ completamente impactante! Crash fourward en una aventura en el tiempo con tus marsupiales favoritos. ¡Neo Cortex y N. Tropy están de vuelta y lanzan un asalto total no solo en este universo, sino en todo el multiverso! Crash y Coco están aquí para salvar el día reuniendo las cuatro máscaras cuánticas y rompiendo las reglas de la realidad. Comprobación de nuevas habilidades. ¿Más personajes jugables? Sí, ¿dimensiones alternativas? obviamente. ¿Jefes ridículos? seguro, ¿la misma salsa increíble? Puedes apostar tus dulces jorts. Espera, ¿son realmente jotas? ¡No en este universo!",
+    "img": "./assets/nintendo13.webp",
+    "category": "nintendo",
+    "stock": 15
+  },
+  {
+    "id": 40,
+    "name": "Battlefield 2042 - Xbox One, Xbox Series X",
+    "logo": "logoXbox",
+    "price": "Now $13,74",
+    "description": "Battlefield 2042 es un juego de disparos en primera persona que marca el regreso a la icónica guerra total de la franquicia. En un mundo del futuro cercano transformado por el desorden, adáptate y supera los campos de batalla que cambian dinámicamente con la ayuda de tu escuadrón y un arsenal de vanguardia. Con soporte para 128 jugadores, Battlefield 2042 ofrece una escala sin precedentes en vastos entornos en todo el mundo. Los jugadores vivirán varias experiencias masivas, desde modos multijugador actualizados como Conquest y Breakthrough hasta la nueva Hazard Zone.",
+    "img": "./assets/xbox13.jpg",
+    "category": "xbox",
+    "stock": 30
+  },
+  {
+    "id": 41,
+    "name": "Marvel's Spider-Man: Miles Morales - PlayStation 5",
+    "logo": "logoPlay",
+    "price": "$49,99",
+    "description": "Ser mayor. Ser uno mismo. Experimenta el ascenso de Miles Morales mientras el nuevo héroe domina increíbles y explosivos nuevos poderes para convertirse en su propio Spider-Man. En la última aventura del universo Marvel's Spider-Man, el adolescente Miles Morales se adapta a su nuevo hogar mientras sigue los pasos de su mentor, Peter Parker, como un nuevo Spider-Man. Pero cuando una feroz lucha por el poder amenaza con destruir su nuevo hogar, el aspirante a héroe se da cuenta de que un gran poder conlleva también una gran responsabilidad. Para salvar toda la Nueva York de Marvel, Miles debe tomar el manto de Spider-Man y poseerlo.",
+    "img": "./assets/play15.jpg",
+    "category": "playstation",
+    "stock": 30
+  },
+  {
+    "id": 42,
+    "name": "Grand Theft Auto: The Trilogy - The Definitive Edition - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$49,99",
+    "description": "Tres ciudades icónicas, tres historias épicas. Juega los clásicos que definen el género de la trilogía original de Grand Theft Auto: Grand Theft Auto III, Grand Theft Auto: Vice City y Grand Theft Auto: San Andreas actualizados para una nueva generación, ahora con mejoras generales que incluyen una nueva y brillante iluminación. y actualizaciones ambientales, texturas de alta resolución, mayores distancias de dibujo, controles y objetivos estilo Grand Theft Auto V, y mucho más, dando vida a estos amados mundos con todos los nuevos niveles de detalle.",
+    "img": "./assets/nintendo14.webp",
+    "category": "nintendo",
+    "stock": 22
+  },
+  {
+    "id": 43,
+    "name": "Minecraft - Xbox One, Xbox Series X|S [Digital]",
+    "logo": "logoXbox",
+    "price": "$49,99",
+    "description": "Minecraft es un juego sobre colocar bloques y emprender aventuras. Explora mundos generados aleatoriamente y construye cosas asombrosas, desde las casas más sencillas hasta los castillos más grandiosos. Juega en el modo creativo con recursos ilimitados o explora las profundidades del mundo en el modo de supervivencia, creando armas y armaduras para defenderte de las peligrosas turbas.",
+    "img": "./assets/xbox14.jpg",
+    "category": "xbox",
+    "stock": 13
+  },
+  {
+    "id": 44,
+    "name": "Unravel 2 - Nintendo Switch",
+    "logo": "logoNtd",
+    "price": "$19.93",
+    "description": "Cuando cortas los lazos con el pasado, se forman nuevos lazos. En Unravel Two, crea tu propio Yarny. Luego construye relaciones con otros Yarnys en cooperativo local o como un solo jugador, fomentando la amistad y el apoyo mientras viajan juntos. Comienza tu aventura en una tierra fría e imponente, luego observa cómo tu entorno florece con nueva vida mientras persigues la chispa de la aventura. Sumérgete en una historia inmersiva llena de energía, exuberancia, inspiración e incluso monstruos. Aborda cada desafío con positividad y audacia para despertar el mundo que te rodea y descubre un vínculo inquebrantable entre amigos.",
+    "img": "./assets/nintendo15.webp",
+    "category": "nintendo",
+    "stock": 6
+  },
+  {
+    "id": 45,
+    "name": "The Dark Pictures: House Of Ashes - Xbox Series X",
+    "logo": "logoXbox",
+    "price": "Now $27.99",
+    "description": "The Dark Pictures Anthology es una serie de juegos de terror cinemáticos e independientes en los que las decisiones que tomas en el juego determinan la historia que recibes. House of Ashes es el tercer juego de la serie. Irak, 2003. A medida que el conflicto llega a su fin, la agente de campo de la CIA Rachel King se une a una unidad militar de élite en una incursión en una supuesta instalación subterránea de armas químicas a la sombra de las montañas Zagros. Al llegar a las coordenadas, la unidad es emboscada por una patrulla local dirigida por el sargento Salim Othman. Durante la batalla, un terremoto abre sumideros en el suelo, lanzando ambos lados hacia las ruinas de un templo sumerio enterrado. En la oscuridad bajo el desierto de Arabia, algo malvado se despierta. Salvaje e imparable, un nido de criaturas antiguas y sobrenaturales tiene una nueva presa para cazar. Descubrimientos horribles y decisiones imposibles enfrentan a los sobrevivientes mientras se esfuerzan por navegar por el inframundo y escapar de la amenaza aterradora. ¿Cada uno priorizará su propia supervivencia, o dejará de lado sus miedos y sus rivalidades personales para luchar juntos como uno solo? DESCEND IN THE DARK ABYSS: navegue por un laberinto subterráneo y escape de las criaturas hambrientas que encontraron su nueva presa para cazar. EL ENEMIGO DE TU ENEMIGO... ¿Priorizarás tu propia supervivencia o dejarás de lado tus miedos y rivalidades personales para luchar juntos como uno? coopera sabiamente para salvar tu elenco... Abandona la esperanza Todos los que entren aquí...",
+    "img": "./assets/xbox15.jpg",
+    "category": "xbox",
+    "stock": 4
+  }
+]

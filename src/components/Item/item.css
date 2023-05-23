@@ -1,92 +1,101 @@
-
-.card-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 250px;
-    height: 100%;
-    padding-bottom: 1.3rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  padding-bottom: 1.3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-img img{
+.card-img img {
   object-fit: cover;
   margin-top: 1.4rem;
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
-.card-name{
+.card-name {
   text-align: center;
   font-size: 11px;
   width: 100%;
   max-width: 200px;
-    margin: auto;
-    height: 2.3rem;
+  margin-bottom: 1.5rem;
+  height: 2.3rem;
 }
 
-.card-data{
+.card-data {
   text-align: center;
   margin-top: 1rem;
   width: 100%;
   font-size: 18px;
 }
 
-.price-item{
+.price-item {
   margin-bottom: 1rem;
   color: #105602;
   font-size: 1.3rem;
 }
 
-.categoria-item{
+.categoria-item {
   font-size: 0.8rem;
   letter-spacing: 1.4px;
 }
 
 .btn41-43 {
-    padding: 10px 25px;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    background: transparent;
-    outline: none !important;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-42 {
+  border: 2px solid #2f3948;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+  color: black;
+  margin-top: 1rem;
+}
+
+.btn-42:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #2c6777;
+  transition: all 0.3s ease;
+}
+
+.btn-42:hover {
+  color: white;
+}
+
+.btn-42:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.btn-42:active {
+  top: 2px;
+}
+
+/* media querys */
+
+@media (max-width: 768px) {
+  .card-name {
+    font-size: 10px;
+    max-width: 200px;
+    height: 2.5rem;
   }
-  
-  .btn-42 {
-    border: 2px solid #2f3948;
-    border-radius: 20px;
-    overflow: hidden;
-    z-index: 1;
-    color: black;
-    margin-top: 1rem;
-  }
-  
-  .btn-42:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background: #2c6777;
-    transition: all 0.3s ease;
-  }
-  
-  .btn-42:hover {
-    color: white;
-  }
-  
-  .btn-42:hover:after {
-    top: 0;
-    height: 100%;
-  }
-  
-  .btn-42:active {
-    top: 2px;
-  }
+}
