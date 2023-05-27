@@ -1,35 +1,49 @@
-import { useEffect, useState } from "react"
-import { getproduct, getProductCategories } from "../../asyncMock"
-import "../ItemListContainer/itemlistcontainer.css"
-import { ItemList } from "../ItemList/ItemList"
-import { useParams } from "react-router-dom"
-import Notice from "../notice/Notice"
-import Slider from "../Slider/Slider"
+import { useEffect, useState } from "react";
+import "../ItemListContainer/itemlistcontainer.css";
+import { ItemList } from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
+import { getProducts } from "../../firebase/firebase";
+import Notice from "../notice/Notice";
 
-const ItemListContainer = ({titulo}) =>{
-    const [products, setProducts] = useState([])
+const ItemListContainer = () => {
+  const [productos, setProductos] = useState([]);
+  const { idCategory } = useParams();
+  const [loading, setLoading] = useState(false);
 
-    const { categoryId } = useParams();
+  useEffect(() => {
+    setLoading(true);
 
-    useEffect (()=>{
-        
-        const asyncFunc = categoryId ? getProductCategories : getproduct
-        
-        asyncFunc(categoryId)
-       .then(response=>{
-        setProducts(response)
-       })
-       .catch (err => console.log(err))
-    },[categoryId])
-    return(
-        <div className="container-list">
-            <h1>{titulo}</h1>
-            <Slider />
-            <ItemList products={products}/>
-            <Notice />
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  }, []);
 
-        </div>
-    )
-}
+ 
+  useEffect(() => {
+    if (idCategory) {
+      getProducts().then((products) => {
+        const productsList = products.filter(
+          (prod) => prod.idCategory === idCategory
+        );
 
-export default ItemListContainer
+        const cardProductos = <ItemList productsList={productsList} />;
+        setProductos(cardProductos);
+      });
+    } else {
+      getProducts().then((productsList) => {
+        const cardProductos = <ItemList productsList={productsList} />;
+        setProductos(cardProductos);
+      });
+    }
+  }, [idCategory]);
+
+  return (
+    <>
+      <div className="container-list">
+        {loading ? <h1>loading...</h1> : (productos)}
+        <Notice />
+      </div>
+    </>
+  );
+};
+export default ItemListContainer;

@@ -4,7 +4,8 @@ import "../ItemDetail/itemdetail.css";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 
-const ItemDetail = ({id, name, img, price, category, stock, logo }) => {
+const ItemDetail = ({ producto }) => {
+  const {id, name, img, price, idCategory, stock, logo} = producto
   const [quantityAdded, setQuantityAdded] = useState(0);
 
   const {addItem} = useContext(CartContext)
@@ -12,9 +13,7 @@ const ItemDetail = ({id, name, img, price, category, stock, logo }) => {
   const handleOnAdd = (quantity) => {
     setQuantityAdded(quantity);
 
-    const item = {
-       id, name, price
-    }
+    const item = {id, name, price}
 
     addItem(item, quantity)
 
@@ -33,7 +32,7 @@ const ItemDetail = ({id, name, img, price, category, stock, logo }) => {
           <p>||</p>
           <p className="category">
             {" "}
-            {logo} Categoria: {category}{" "}
+            {logo} Categoria: {idCategory}{" "}
           </p>
         </div>
         <div className="detail-button">

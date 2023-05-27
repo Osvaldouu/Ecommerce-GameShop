@@ -5,6 +5,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import { CartProvider } from "./context/CartContext";
 import Footer from "./components/Footer/Footer";
 import Cart from "./components/Cart/Cart";
+import Slider from "./components/Slider/Slider"
 
 function App() {
   return (
@@ -12,14 +13,14 @@ function App() {
       <BrowserRouter>
         <CartProvider>
           <Navbar />
+          <Slider />
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
-            <Route
-              path="/category/:categoryId"
-              element={<ItemListContainer />}
-            />
-            <Route path="/item/:itemId" element={<ItemDetailContainer />} />
-            <Route path="/cart" element={<Cart/>} />
+            <Route path="/product/:id" element={<ItemDetailContainer />} />
+
+            <Route path="/idCategory/:idCategory" element={<ItemListContainer />} />
+
+            <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<h1>404 NOT FOUND</h1>} />
           </Routes>
           <Footer />

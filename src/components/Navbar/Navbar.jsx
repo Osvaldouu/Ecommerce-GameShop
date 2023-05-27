@@ -36,19 +36,19 @@ const Navbar = () => {
         </Link>
         <div className={`dat-container ${menuOpen ? "activeMenu" : ""}`}>
           <NavLink
-            to={`/category/playstation`}
+            to={`/idCategory/playstation`}
             className="tag"
           >
             PlayStation
           </NavLink>
           <NavLink
-            to={`/category/xbox`}
+            to={`/idCategory/xbox`}
             className="tag"
           >
             Xbox
           </NavLink>
           <NavLink
-            to={`/category/nintendo`}
+            to={`/idCategory/nintendo`}
             className="tag"
           >
             Nintendo
