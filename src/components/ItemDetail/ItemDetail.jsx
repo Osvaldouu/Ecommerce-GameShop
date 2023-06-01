@@ -5,49 +5,49 @@ import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 
 const ItemDetail = ({ producto }) => {
-  const {id, name, img, price, idCategory, stock, logo} = producto
+  const { id, logo, name, price, image, idCategory, stock, description } =
+    producto;
   const [quantityAdded, setQuantityAdded] = useState(0);
 
-  const {addItem} = useContext(CartContext)
+  const { addItem } = useContext(CartContext);
 
   const handleOnAdd = (quantity) => {
     setQuantityAdded(quantity);
 
-    const item = {id, name, price}
+    const item = { id, name, price };
 
-    addItem(item, quantity)
-
+    addItem(item, quantity);
   };
 
   return (
     <div className="container-detail">
-      <div>
-        <img src={img} alt={name} className="item-img" />
-      </div>
       <div className="header-detail">
-        <h2 className="item-name">{name}</h2>
-        <p className="price">{price}</p>
-        <div className="datos-detail">
-          <p className="category">Stock: {stock}</p>
-          <p>||</p>
-          <p className="category">
-            {" "}
-            {logo} Categoria: {idCategory}{" "}
-          </p>
+        <img src={image} alt={name} className="item-img" />
+        <div className="det-container">
+          <h2 className="item-name">{name}</h2>
+          <p className="price">{price}</p>
+          <div className="datos-detail">
+            <p className="category">Stock: {stock}</p>
+            <p>||</p>
+            <p className="category">
+              {" "}
+              {logo} Categoria: {idCategory}{" "}
+            </p>
+          </div>
+          <div className="detail-button">
+            {quantityAdded > 0 ? (
+              <Link to="/cart" className="bn633-hover bn25">
+                Terminar Compra
+              </Link>
+            ) : (
+              <ItemCount initialState={1} stock={stock} onAdd={handleOnAdd} />
+            )}
+          </div>
         </div>
-        <div className="detail-button">
-          {quantityAdded > 0 ? (
-            <Link to="/cart" className="bn633-hover bn25">
-              Terminar Compra
-            </Link>
-          ) : (
-            <ItemCount
-              initialState={1}
-              stock={stock}
-              onAdd={handleOnAdd}
-            />
-          )}
-        </div>
+      </div>
+      <div>
+        <p className="detail-product">Detalles del producto:</p>
+        <h2 className="description">{description}</h2>
       </div>
     </div>
   );

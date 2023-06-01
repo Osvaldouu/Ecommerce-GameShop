@@ -39,15 +39,23 @@ const getProducts = async () => {
 
 
 
-const getProduct = async (id) =>  {
-  const prod = await getDoc(doc(database, "products", id))
-  let item
-  if (prod.data()) {
-    item = {...prod.data(), id: prod.id}
-  }else {
-    item = "Producto no encontrado"
+const getProduct = async (id) => {
+  try {
+    const prodRef = doc(database, "products", id);
+    const prodSnapshot = await getDoc(prodRef);
+
+    if (prodSnapshot.exists()) {
+      const prodData = prodSnapshot.data();
+      const item = { ...prodData, id: prodSnapshot.id };
+      console.log(item)
+      return item;
+    } else {
+      return "Producto no encontrado";
+    }
+  } catch (error) {
+    console.error("Error al obtener el producto:", error);
+    throw error;
   }
-  return item
-}
+};
 
 export { loadBDD, getProducts, getProduct};

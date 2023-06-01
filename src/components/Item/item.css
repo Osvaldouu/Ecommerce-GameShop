@@ -1,7 +1,8 @@
-.container-item{
+.container-item {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0.4rem;
 }
-
 
 .card-container {
   display: flex;
@@ -11,7 +12,7 @@
   width: 100%;
   max-width: 250px;
   height: 100%;
-  padding-bottom: 1.3rem;
+  padding-bottom: 1.2rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -27,8 +28,7 @@
   font-size: 11px;
   width: 100%;
   max-width: 200px;
-  margin-bottom: 1.5rem;
-  height: 2.3rem;
+  margin-bottom: 1rem;
 }
 
 .card-data {
@@ -39,7 +39,7 @@
 }
 
 .price-item {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   color: #105602;
   font-size: 1.3rem;
 }

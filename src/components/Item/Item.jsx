@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom'
 export const Item = ({ prod }) => {
 const {id,logo, name, price, image, idCategory} = prod;
 
+
+
   return (
     <article className='container-item'>
         <div key={id} className="card-container">
@@ -19,7 +21,7 @@ const {id,logo, name, price, image, idCategory} = prod;
                 <p className='categoria-item'>Categoria: {idCategory} {logo}</p>
             </div>
             <div className='detail-button'>
-                <Link to={`/item/${id}`} className='btn41-43 btn-42'>ver detalles</Link>
+                <Link to={`/products/${id}`} className='btn41-43 btn-42'>ver detalles</Link>
             </div>
         </div>
     </article>

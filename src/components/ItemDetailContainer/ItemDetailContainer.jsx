@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import  ItemDetail  from "../ItemDetail/ItemDetail";
+import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 import { getProduct } from "../../firebase/firebase";
-
 
 const ItemDetailContainer = () => {
   const [producto, setProducto] = useState([]);
@@ -10,23 +9,17 @@ const ItemDetailContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    getProduct(id).then(prod => {
+    console.log(id); // Verificar el ID en la consola
+    getProduct(id).then((prod) => {
       setProducto(prod);
     });
   }, [id]);
 
   return (
-    <>
-      {
-        (producto !== "Producto no encontrado") ? 
-        <div>
-          <ItemDetail producto={producto} />
-        </div> 
-        :
-        <h1 className="prod-not-found">Producto no encontrado</h1> 
-      }
-    </>
-  )
-}
+    <div>
+      <ItemDetail producto={producto} />;
+    </div>
+  );
+};
 
-export default ItemDetailContainer
+export default ItemDetailContainer;

@@ -16,10 +16,8 @@ function App() {
           <Slider />
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
-            <Route path="/product/:id" element={<ItemDetailContainer />} />
-
             <Route path="/idCategory/:idCategory" element={<ItemListContainer />} />
-
+            <Route path="/products/:id" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<h1>404 NOT FOUND</h1>} />
           </Routes>
