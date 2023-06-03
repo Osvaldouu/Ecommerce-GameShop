@@ -33,13 +33,11 @@
 
 .card-data {
   text-align: center;
-  margin-top: 1rem;
   width: 100%;
   font-size: 18px;
 }
 
 .price-item {
-  margin-top: 1rem;
   color: #105602;
   font-size: 1.3rem;
 }
@@ -67,7 +65,6 @@
   overflow: hidden;
   z-index: 1;
   color: black;
-  margin-top: 1rem;
 }
 
 .btn-42:after {

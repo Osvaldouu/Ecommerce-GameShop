@@ -50,9 +50,13 @@
   margin-top: 1rem;
 }
 .description{
+  display: flex;
+  justify-content: center;
   margin-top: 1rem;
   padding: 1.3rem;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  max-width: 100%;
 }
 .bn633-hover {
   display: flex;

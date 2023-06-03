@@ -7,13 +7,14 @@ import { useContext } from "react"
 
 
 const Carrito = ()=>{
-    const { totalQuantity } = useContext(CartContext);
+    const { getCartItemCount } = useContext(CartContext);
 
     return (
       <div>
         <Link to="/cart" className="cart-widget">
           <RiShoppingCart2Fill className="carrito" />
-          <span className="number">{totalQuantity()}</span> {/* Utiliza getItemQuantity() para obtener la cantidad actualizada */}
+          {/* <span className="number">{getItemQuantity()}</span>  */}
+          {getCartItemCount() >= 1 && <span className="number">{getCartItemCount()}</span>  }
         </Link>
       </div>
     );

@@ -14,7 +14,7 @@ const ItemDetail = ({ producto }) => {
   const handleOnAdd = (quantity) => {
     setQuantityAdded(quantity);
 
-    const item = { id, name, price };
+    const item = { id, name, price, image };
 
     addItem(item, quantity);
   };
@@ -25,7 +25,7 @@ const ItemDetail = ({ producto }) => {
         <img src={image} alt={name} className="item-img" />
         <div className="det-container">
           <h2 className="item-name">{name}</h2>
-          <p className="price">{price}</p>
+          <p className="price">${price}</p>
           <div className="datos-detail">
             <p className="category">Stock: {stock}</p>
             <p>||</p>

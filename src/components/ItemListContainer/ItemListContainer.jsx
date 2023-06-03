@@ -4,6 +4,8 @@ import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { getProducts } from "../../firebase/firebase";
 import Notice from "../notice/Notice";
+import Loading from "../Loading/Loading";
+import Pagination from "../Pagination/Pagination";
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
@@ -18,21 +20,25 @@ const ItemListContainer = () => {
     }, 1500);
   }, []);
 
- 
+  const [productsPerPage] = useState(8);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const indexOfLastProd = currentPage * productsPerPage;
+  const indexOfFirstProd = indexOfLastProd - productsPerPage;
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const currentProds = productos.slice(indexOfFirstProd, indexOfLastProd);
+
   useEffect(() => {
     if (idCategory) {
       getProducts().then((products) => {
         const productsList = products.filter(
           (prod) => prod.idCategory === idCategory
         );
-
-        const cardProductos = <ItemList productsList={productsList} />;
-        setProductos(cardProductos);
+        setProductos(productsList);
       });
     } else {
       getProducts().then((productsList) => {
-        const cardProductos = <ItemList productsList={productsList} />;
-        setProductos(cardProductos);
+        setProductos(productsList);
       });
     }
   }, [idCategory]);
@@ -40,7 +46,18 @@ const ItemListContainer = () => {
   return (
     <>
       <div className="container-list">
-        {loading ? <h1>loading...</h1> : (productos)}
+        {loading ? <Loading/> : (
+          <>
+          <ItemList currentProds={currentProds}/>
+          <Pagination
+          productsPerPage={productsPerPage}
+          totalProducts={productos.length}
+          currentPage={currentPage}
+          paginate={paginate}
+        />
+          </>
+        ) }
+
         <Notice />
       </div>
     </>

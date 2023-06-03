@@ -1,10 +1,10 @@
 import { Item } from "../Item/Item";
 import "../ItemList/itemlist.css";
 
-export const ItemList = ({ productsList }) => {
+export const ItemList = ({ currentProds }) => {
   return (
       <>
-      {productsList.map((producto) => (
+      {currentProds?.map((producto) => (
         <Item key={producto.id} prod={producto} />
       ))}
     </>

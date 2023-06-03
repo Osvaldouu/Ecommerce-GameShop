@@ -1,13 +1,12 @@
 import "../Cart/cart.css";
-import { CartContext } from "../../context/CartContext";
-import { useContext } from "react";
+import { UseCart } from "../../context/CartContext";
+// import { useContext } from "react";
 import CartItem from "../CartItem/CartItem";
 import CartEmpty from "../CartEmpty/CartEmpty";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const { cart, clearCart, getItemQuantity, getTotal } = useContext(CartContext);
-
+  const { cart, clearCart, getItemQuantity, getTotal } = UseCart();
   if (getItemQuantity() === 0) {
     return (
       <div>
@@ -16,15 +15,20 @@ const Cart = () => {
     );
   } else {
     return (
-        <div>
-        {cart.map((p) => (
-          <CartItem key={p.id} {...p} />
+      <div>
+        {cart.map((p, index) => (
+          <CartItem key={index} item={p} />
         ))}
-        <h3>Total: ${getTotal()}</h3>
-        <button onClick={() => clearCart()} className="button-clear">
-          Limpiar Carrito
-        </button>
-        <Link to="/checkout">Checkout</Link>
+        ;
+        <div className="cart-container">
+          <div className="cart-total">
+            <h3>Total: ${getTotal()}</h3>
+          </div>
+          <button onClick={() => clearCart()} className="button-clear">
+            Limpiar Carrito
+          </button>
+        </div>
+        <Link className="checkout" to="/checkout">Checkout</Link>
       </div>
     );
   }

@@ -47,7 +47,6 @@ const getProduct = async (id) => {
     if (prodSnapshot.exists()) {
       const prodData = prodSnapshot.data();
       const item = { ...prodData, id: prodSnapshot.id };
-      console.log(item)
       return item;
     } else {
       return "Producto no encontrado";

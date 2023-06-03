@@ -9,7 +9,6 @@ const ItemDetailContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    console.log(id); // Verificar el ID en la consola
     getProduct(id).then((prod) => {
       setProducto(prod);
     });
