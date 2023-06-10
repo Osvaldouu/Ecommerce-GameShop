@@ -57,4 +57,4 @@ const getProduct = async (id) => {
   }
 };
 
-export { loadBDD, getProducts, getProduct};
+export { loadBDD, getProducts, getProduct, database};
