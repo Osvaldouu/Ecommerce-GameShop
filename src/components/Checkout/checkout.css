@@ -1,0 +1,31 @@
+.checkout-container{
+    height: 100vh;
+}
+
+.title-checkout{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.subtitle-checkout{
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 3px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.input-checkout{
+    border: 2px solid black;
+    padding: 0.7rem;
+    width: 40%;
+    text-align: center;
+}
