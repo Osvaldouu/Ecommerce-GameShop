@@ -4,7 +4,7 @@
 
 .title-checkout{
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -20,7 +20,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 7rem;
+    gap: 6.5rem;
+}
+
+.orden-checkout{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.6rem;
 }
 
 .input-checkout{
@@ -28,4 +34,68 @@
     padding: 0.7rem;
     width: 40%;
     text-align: center;
+}
+
+.buton-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.ckt-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.4rem;
+    height: 70vh;
+}
+.buton2-check{
+    margin-bottom: 1.3rem;
+}
+.buton1-check, .buton2-check{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #232423;
+    padding: 0.3em 1.2em;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #ffffff;
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 4px #232423 inset;
+}
+
+.buton1-check:hover{
+    background-image: linear-gradient(
+        55deg,
+        transparent 10%,
+        #161616 10% 20%,
+        transparent 20% 30%,
+        #161616 30% 40%,
+        transparent 40% 50%,
+        #161616 50% 60%,
+        transparent 60% 70%,
+        #161616 70% 80%,
+        transparent 80% 90%,
+        #161616 90% 100%
+      );
+      animation: background 3s linear infinite;
+}
+
+.buton2-check:hover{
+    background-image: linear-gradient(
+        55deg,
+        transparent 10%,
+        #161616 10% 20%,
+        transparent 20% 30%,
+        #161616 30% 40%,
+        transparent 40% 50%,
+        #161616 50% 60%,
+        transparent 60% 70%,
+        #161616 70% 80%,
+        transparent 80% 90%,
+        #161616 90% 100%
+      );
+      animation: background 3s linear infinite;
 }

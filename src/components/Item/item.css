@@ -1,7 +1,8 @@
 .container-item {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  margin: 0.4rem;
+  margin: 0.6rem;
 }
 
 .card-container {

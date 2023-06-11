@@ -4,13 +4,11 @@ import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { database } from "../../firebase/firebase";
 import { UseCart } from "../../context/CartContext";
 import { useNavigate } from "react-router-dom";
-import Loading from "../Loading/Loading";
 import Swal from "sweetalert2";
 
 const Checkout = () => {
   const [buyer, setBuyer] = useState({});
   const [orderId, setOrderId] = useState("");
-  const [loader, setLoader] = useState(false);
   const navigate = useNavigate();
   const { cart, getTotal, clearCart } = UseCart();
 
@@ -29,8 +27,7 @@ const Checkout = () => {
         icon: "error",
         confirmButtonText: "Aceptar",
       });
-    } else {
-      setLoader(true);
+    }else {
       const ventas = collection(database, "orders");
       addDoc(ventas, {
         buyer,
@@ -42,14 +39,10 @@ const Checkout = () => {
           setOrderId(res.id);
           clearCart();
         })
-        .catch((error) => console.log(error))
-        .finally(() => setLoader(false));
+        .catch((error) => console.log(error));
     }
   };
 
-  if (loader) {
-    return <Loading />;
-  }
   return (
     <div>
       {!orderId ? (
@@ -61,7 +54,8 @@ const Checkout = () => {
               className="input-checkout"
               type="text"
               placeholder="Nombre"
-              name="nombre"
+              name="name"
+              value={buyer.name}
               onChange={datBuyer}
             />
             <input
@@ -69,6 +63,7 @@ const Checkout = () => {
               type="number"
               placeholder="+52-592933"
               name="phone"
+              value={buyer.phone}
               onChange={datBuyer}
             />
             <input
@@ -76,6 +71,7 @@ const Checkout = () => {
               type="email"
               placeholder="Email"
               name="email"
+              value={buyer.email}
               onChange={datBuyer}
             />
             <button type="submit" className="buton1-check">
@@ -84,11 +80,10 @@ const Checkout = () => {
           </form>
         </div>
       ) : (
-        <div>
+        <div className="ckt-container">
           <h2 className="title-checkout">Muchas gracias por su compra!</h2>
           <h3 className="orden-checkout">Su orden es: {orderId}</h3>
           <button onClick={() => navigate("/")} className="buton2-check">
-            {" "}
             Volver a comprar!
           </button>
         </div>

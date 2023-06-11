@@ -47,19 +47,18 @@ const ItemListContainer = () => {
     <>
       <div className="container-list">
         {loading ? <Loading/> : (
-          <>
           <ItemList currentProds={currentProds}/>
-          <Pagination
+        ) }
+      </div>
+      <div>
+        <Pagination
           productsPerPage={productsPerPage}
           totalProducts={productos.length}
           currentPage={currentPage}
           paginate={paginate}
         />
-          </>
-        ) }
-
-        <Notice />
-      </div>
+       <Notice />
+        </div>
     </>
   );
 };
